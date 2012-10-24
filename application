@@ -6,6 +6,10 @@ def add_stuff(one,two)
 	one + two
 end
 
+def func3(words)
+	puts words
+end
+
 
 parrot "Git is awesome"
 puts add_stuff(1,2)
