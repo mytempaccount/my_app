@@ -3,8 +3,9 @@ def parrot(words)
 end
 
 def add_stuff(one,two)
-
+	one + two
 end
 
 
 parrot "Git is awesome"
+puts add_stuff(1,2)
